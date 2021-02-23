@@ -8,11 +8,6 @@ public class SimpleTest {
 
     @Test
     void simplePassedTest() {
-        assertTrue(true);
-    }
-
-    @Test
-    void simpleFailureTest() {
-        assertTrue(false, "failure test is failed. It's Ok.");
+        assertTrue(Boolean.toString(true).equals("true"));
     }
 }
